@@ -1,0 +1,14 @@
+.goods__header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.goods__sort {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 115px;
+}
+.goods__cards {
+   display: flex;
+    justify-content: space-around;
+
+}

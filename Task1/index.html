@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+<div class="goods">
+    <h2 class="goods__header">Список товаров </h2>
+    <div class="goods__sort">Сортировать по цене
+        <i class="fas fa-sort" onclick="sorting()"></i>
+    </div>
+    <div class="goods__cards">
+        <div class="card" style="width: 18rem;" data-price=90 >
+            <img src="./img/вишневая_креветка.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Вишневая креветка</h5>
+                <span class=card__price" >Цена 90 рублей</span>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;" data-price=130>
+            <img src="./img/апистограма_какаду.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Апистограма какаду</h5>
+                <span class=card__price" >Цена 130 рублей</span>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;" data-price=110>
+            <img src="./img/аулонокара_земляничная.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Аулонокара земляничная</h5>
+                <span class=card__price" >Цена 110 рублей</span>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;" data-price=70>
+            <img src="./img/Лабидохромис_Еллоу.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Лабидохромис Еллоу</h5>
+                <span class=card__price" >Цена 70 рублей</span>
+                <a href="#" class="btn btn-primary">Купить</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
